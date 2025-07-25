@@ -6,7 +6,15 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitb9ea4fbf09783ac52d0e6a9e674283c7
 {
+    public static $files = array (
+        '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Symfony\\Component\\Routing\\' => 26,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -14,6 +22,10 @@ class ComposerStaticInitb9ea4fbf09783ac52d0e6a9e674283c7
     );
 
     public static $prefixDirsPsr4 = array (
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -21,6 +33,8 @@ class ComposerStaticInitb9ea4fbf09783ac52d0e6a9e674283c7
     );
 
     public static $classMap = array (
+        'App\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/controllers/UserController.php',
+        'App\\Models\\User' => __DIR__ . '/../..' . '/app/models/User.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

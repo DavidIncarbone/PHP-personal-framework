@@ -4,7 +4,7 @@ define('SITE_NAME', 'php-personal-framework');
 //App Root
 define('APP_ROOT', dirname(dirname(__FILE__)));
 define('URL_ROOT', '/');
-define('URL_SUBFOLDER', '');
+define('URL_SUBFOLDER', '/boolean/PHP-personal-framework');
 
 //DB Params
 define('DB_HOST', 'localhost');

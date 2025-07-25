@@ -1,21 +1,39 @@
 <?php return array(
     'root' => array(
-        'name' => 'veranius/php-personal-framework',
+        'name' => 'php-personal-framework/php-personal-framework',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd1acf3e4f9c55ce2885387d889df954d4be8d628',
+        'reference' => '811a4025bcd92ad26a5d40d1367f033dcdf9849e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'veranius/php-personal-framework' => array(
+        'php-personal-framework/php-personal-framework' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd1acf3e4f9c55ce2885387d889df954d4be8d628',
+            'reference' => '811a4025bcd92ad26a5d40d1367f033dcdf9849e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/deprecation-contracts' => array(
+            'pretty_version' => 'v3.6.0',
+            'version' => '3.6.0.0',
+            'reference' => '63afe740e99a13ba87ec199bb07bbdee937a5b62',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/routing' => array(
+            'pretty_version' => 'v7.3.0',
+            'version' => '7.3.0.0',
+            'reference' => '8e213820c5fea844ecea29203d2a308019007c15',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/routing',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

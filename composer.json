@@ -1,5 +1,5 @@
 {
-  "name": "veranius/php-personal-framework",
+  "name": "php-personal-framework/php-personal-framework",
   "description": "Simple MVC PHP framework",
   "autoload": {
     "psr-4": {
@@ -8,5 +8,8 @@
     "classmap": [
       "app/"
     ]
+  },
+  "require": {
+    "symfony/routing": "^7.3"
   }
 }
