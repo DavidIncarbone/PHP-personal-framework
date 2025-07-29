@@ -16,6 +16,7 @@
 
     <section>
         <h1>Homepage</h1>
+        <a href="/boolean/PHP-personal-framework/user/1">User 1</a>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
