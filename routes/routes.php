@@ -15,5 +15,10 @@ $routes->add('homepage', new Route(
     array('controller' => 'HomeController', 'method' => 'index')
 
 ));
+$routes->add('test', new Route(
+    constant('URL_SUBFOLDER') . '/test',
+    array('controller' => 'TestController', 'method' => 'index')
+
+));
 
 return $routes;
